@@ -12,6 +12,13 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 import br.unifor.programacao.paciente.bean.PacienteBean;
 
+/*
+ * @author Hoheckell
+ * @version 1.0
+ * Classe PacienteDAO esta classe representa a classe 
+ * DAO responsável pela persistência da entidade Paciente no banco de dados
+ */
+
 public class PacienteDAO extends SQLiteOpenHelper {
 
 	public static final int VERSAO = 1;

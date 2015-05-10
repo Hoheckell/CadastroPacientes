@@ -9,6 +9,8 @@ import br.unifor.programacao.paciente.bean.PacienteBean;
  *
  * @param  Activity  Recebe a atividade na qual será usada o Helper
  * @author      Hoheckell
+ * @version 1.0
+ * Classe AdicionaisHelper esta classe é usada como Helper na classe InformacoesAdicionaisAtividade
  */
 
 public class AdicionaisHelper {
