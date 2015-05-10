@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.unifor.programacao.paciente.atividade.ListaPacienteAtividade" >
+
+    <item
+        android:id="@+id/itemRemoverPaciente"
+        android:title="@string/remover_paciente">
+    </item>
+    <item
+        android:id="@+id/itemPacienteLiberado"
+        android:title="@string/alterar_paciente">
+    </item>
+    <item android:id="@+id/itemLigarFamiliar" android:title="@string/ligar_familia"></item>
+    <item android:id="@+id/itemEnviarSMS" android:title="@string/enviar_SMS"></item>
+    <item android:id="@+id/itemEnviarEmail" android:title="@string/enviar_email"></item>
+    <item android:id="@+id/iteminformarDados" android:title="@string/itemInformarDados"></item>
+
+    
+</menu>

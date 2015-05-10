@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RegistroPacienteContexto</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- String para a atividade principal -->
+    <string name="cadastroBtn">Cadastro de pacientes</string>
+    <string name="listaBtn">Lista de Pacientes</string>
+
+    <!-- Strings para criação do menu de contexto -->
+    <string name="remover_paciente">Remover Paciente</string>
+    <string name="alterar_paciente">Alterar Paciente</string>
+
+    <!-- String <descrever a função das outras telas criadas na app> -->
+    <string name="tela_cadastro">Cadastro de Pacientes</string>
+    <string name="tela_lista">Lista de Pacientes</string>
+    <string name="textviewnome">Nome Completo</string>
+    <string name="textviewleito">Leito</string>
+    <string name="textviewpressao">Pressão</string>
+    <string name="textviewtiposangue">Tipo Sanguíneo</string>
+    <string name="textviewbatimentos">Batimentos cardíacos</string>
+    <string name="textviewtemperatura">Temperatura</string>
+    <string name="textviewinternacao">Motivo Internação</string>
+    <string name="CadastroBtnOk">OK</string>
+    <string name="title_activity_paciente">Paciente</string>
+    <string name="pacteste">Aqui o paciente</string>
+    <string name="textviewbpm">Batimentos cardiacos</string>
+    <string name="btnUpdate">Alterar</string>
+    <string name="title_activity_lista_paciente_atividade">ListaPacienteAtividade</string>
+    <string name="title_activity_paciente_atividade">PacienteAtividade</string>
+    <string name="title_activity_registro_paciente_atividade">RegistroPacienteAtividade</string>
+    <string name="ligar_familia">Ligar Parente</string>
+    <string name="enviar_SMS">Enviar SMS Responsável</string>
+    <string name="enviar_email">Enviar Diagnostico (Email)</string>
+    <string name="itemInformarDados">Informar Dados Adicionais</string>
+    <string name="title_activity_informacoes_adicionais">Informacoes Adicionais</string>
+    <string name="btnAsalvar">Confirmar dados</string>
+    <string name="textAnome">Nome</string>
+    <string name="textAendereco">Endereço</string>
+    <string name="textAcelular">Celular</string>
+    <string name="textAtelefone">Telefone (Residencial)</string>
+    <string name="textAemail">Endereço eletrônico</string>
+    <string name="textAcontato">Contato de Urgência</string>
+
+</resources>

@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.unifor.programacao.paciente.atividade.RegistroPacienteAtividade" >
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/textviewnome" />
+
+    <EditText
+        android:id="@+id/editTextPnome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewNome"
+        android:layout_below="@+id/textViewNome"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewLeito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextPnome"
+        android:layout_below="@+id/editTextPnome"
+        android:text="@string/textviewleito" />
+
+    <EditText
+        android:id="@+id/editTextLeito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewLeito"
+        android:layout_below="@+id/textViewLeito"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewPressao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextLeito"
+        android:layout_below="@+id/editTextLeito"
+        android:text="@string/textviewpressao" />
+
+    <EditText
+        android:id="@+id/editTextPressao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewPressao"
+        android:layout_below="@+id/textViewPressao"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewTiposangue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextPressao"
+        android:layout_below="@+id/editTextPressao"
+        android:text="@string/textviewtiposangue" />
+
+    <EditText
+        android:id="@+id/editTextSangue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTiposangue"
+        android:layout_below="@+id/textViewTiposangue"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewBpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextSangue"
+        android:layout_below="@+id/editTextSangue"
+        android:text="@string/textviewbatimentos" />
+
+    <EditText
+        android:id="@+id/editTextBpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewBpm"
+        android:layout_below="@+id/textViewBpm"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewtemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextBpm"
+        android:layout_below="@+id/editTextBpm"
+        android:text="@string/textviewtemperatura" />
+
+    <EditText
+        android:id="@+id/editTexttemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewtemperatura"
+        android:layout_below="@+id/textViewtemperatura"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewInternacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTexttemp"
+        android:layout_below="@+id/editTexttemp"
+        android:text="@string/textviewinternacao" />
+
+    <EditText
+        android:id="@+id/editTextIntern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewInternacao"
+        android:layout_below="@+id/textViewInternacao"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/buttonCadOk"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editTextIntern"
+        android:text="@string/CadastroBtnOk" />
+
+</RelativeLayout>
